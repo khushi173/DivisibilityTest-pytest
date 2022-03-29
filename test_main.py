@@ -1,10 +1,6 @@
 import main
 import pytest
 
-#@pytest.fixture
-#def input():
- #   a = 315
-  #  return a
 
 
 @pytest.mark.parametrize("num,output",[(5,True),(2,False),(10,True),(7,False)])
